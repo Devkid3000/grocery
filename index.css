@@ -1,0 +1,179 @@
+/* header {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 2rem;
+    background-color: lightgray;
+    height: 4rem;
+}
+
+header i {
+    font-size: 1.5rem;
+    background-color: white;
+    justify-content: center;border-radius: 50%;
+    margin-top: 10%;
+    padding: auto;
+    height: 2rem;
+}
+
+ header i:nth-of-type(2) {
+     font-size: 1.9rem;
+     border-radius: 0px;
+     height: 2.5rem;
+}
+
+#searcher {
+    display: flex;
+    width: 14rem;
+    height: 2.5rem;
+}
+
+#searcher i {
+    border-radius: 0px;
+    height: 2.5rem;
+    margin-bottom: 14%;
+    width: 6rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+input {
+    width: 10rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-top: 6.5%;
+}
+
+#nav {
+    display: flex;
+    background: white;
+    height: 8rem;
+    width: 100%; */
+
+    /* position: fixed; */
+/* }
+
+nav {
+    display: flex;
+}
+
+a {
+    display: flex;
+    color: black;
+    font-size: 2.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav button {
+    display: none;
+    width: 7.5rem;
+    height: 6rem;
+    border: 1.5px solid black;
+    background-color: limegreen;
+}
+
+#nav i {
+    color: black;
+    font-size: 2rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+#homeD1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+#homeD1 > img {
+width: 24%;
+height: 15%;
+}
+
+#homeD1 p {
+display: flex;
+flex-direction: column;
+}
+
+#topSpan span:nth-child(1) {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+#topSpan span:nth-child(2) {
+    font-size: 3.3rem;
+    font-weight: bolder;
+}
+
+#topSpan button {
+    width: 7rem;
+    height: 3rem;
+    border: 1.5px solid black;
+    background-color: limegreen;
+}
+
+#offerDiv {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 2rem 3rem;
+ */
+
+
+/* note that you would have to delete this margin top  */
+
+    /* border-top: 2px solid red;
+}
+
+#offerPDiv {
+    display: flex;
+    width: 40%;
+    height: 25%;
+    border: 0.8rem solid rgb(33, 204, 33);
+    padding: 1rem 1rem;
+}
+
+#offerPDiv img {
+    width: 20%;
+    height: 18%;
+} */
+
+/* check out how to apply the media query properly */
+/* @media(min-width: 729px) {
+    #nav nav {
+        display: none;
+    }
+    input {
+        height: 2.5rem;
+    }
+    #homeD1 {
+        flex-direction: column;
+    }
+    #offerDiv {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+    } 
+    #nav {
+        width: 100%;
+        height: auto;
+        background-color: blue;
+    }
+    #nav button {
+        display: block;
+        height: 4rem;
+        width: 3rem;
+        color: red;
+        border: 1.5px solid black;
+    }
+} */

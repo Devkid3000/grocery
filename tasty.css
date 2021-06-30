@@ -1,0 +1,1370 @@
+*body {
+    width: fit-content;
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+header {
+    width: 100%;
+    display: flex;
+    height: 6.5rem;
+    background-color: rgb(233, 233, 233);
+    padding: auto;
+}
+
+header i {
+    font-size: 2.6rem;
+    color: green;
+    text-align: center;
+}
+
+header i:nth-child(1) {
+    font-size: 3rem;
+    margin-left: 5.5rem;
+}
+
+/* i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  
+  } */
+
+header span {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    margin-right: 9rem;
+    margin-top: 1.5rem;
+}
+
+#searcher {
+    display: flex;
+    width: 18.2rem;
+    height: 4.4rem;
+    /* background-color: white; */
+    margin-left: 30%;
+}
+
+#searcher span {
+    width: 30%;
+    height: fit-content;
+    margin-top: 0.2rem;
+}
+
+
+
+#searcher input {
+    width: 14rem;
+    height: 2.8rem;
+    margin-right: 0rem;
+    border: 2px solid green;
+}
+
+#searcher i {
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    margin-left: 0rem;
+    margin-top: 0.35rem;
+}
+
+i {
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+/* header input {
+    height: 1.9rem;
+    width: 12rem;
+    margin-left: 40%;
+    margin-top: 1.5rem;
+} */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    height: 6rem;
+    background-color: whitesmoke;
+    border-bottom: 0.07rem solid black;
+    border-top: 0.07rem solid black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin-top: 0%;
+}
+
+#closure {
+    display: none;
+}
+
+nav {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    margin-left: 1.1rem;
+    margin-right: 27.1%;
+    width: 50%;
+}
+
+nav a:first-child {
+    margin-left: 4.2rem;
+}
+
+nav a {
+    font-size: 1.85rem;
+    margin-right: 1.2rem;
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+nav + button {
+    display: none;
+}
+
+ul {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+#nav i {
+    margin-right: 1.8rem;
+    font-size: 1.9rem;
+}
+
+button + i:nth-of-type(1) {
+    margin-left: 30%;
+}
+
+
+#home {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+#homeD1 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 33rem;
+}
+
+#homeD1 > img {
+    width: 45rem;
+    height: 30rem;
+    margin-top: 6rem;
+    margin-left: 40%;
+}
+
+#topSpan {
+    width: 40%;
+    margin-left: 5rem;
+}
+
+#topSpan span {
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    font-size: 3rem;
+}
+
+#topSpan span:first-child {
+    margin-top: 9.5rem;
+    font-size: 1.9rem;
+    font-weight: lighter;
+}
+
+#topSpan button {
+    width: 8rem;
+    height: 3rem;
+    background-color: lime;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+}
+
+#offerDiv {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin-top: none;
+}
+
+.offerPDiv {
+    display: flex;
+    flex-direction: row;
+    width: 46%;
+    height: 16rem;
+    margin: 4%;
+    /* try and target for these divs to b closer to each other */
+    border: 1.3px solid green;
+    background-color: rgb(228, 235, 238);
+}
+
+.offerPDiv img {
+    width: 66%;
+    height: 16rem;
+}
+
+.offersPGraph {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.offersPGraph span:first-child {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.offersPGraph span:nth-of-type(2) {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-top: 0.7rem;
+}
+
+.offersPGraph button {
+    width: 6rem;
+    height: 2rem;
+    background-color: lime;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+ /* h1 styling */
+ h1 {
+     text-align: center;
+     text-transform: capitalize;
+     font-size: 2.7rem;
+ }
+
+ h1 + hr {
+     background-color: black;
+     width: 24rem;
+     align-self: center;
+     height: 1.7px;
+     margin-bottom: 3rem;
+ }
+
+/* ############# category styling */
+#category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    margin-top: 2.5rem;
+}
+
+#category div {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: fit-content;
+    border: 0.15rem solid green;
+    margin: auto 2.3%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: bolder;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+}
+
+h2 + span {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
+}
+
+img + button {
+    width: 7rem;
+    height: 2rem;
+    align-self: center;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    background-color: lime;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* ############ The brutal products section  */
+/* ################################################################################################################################### */
+/* just to locate the products section */
+/* #start of products section */
+
+
+
+
+
+
+/* #product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0.5rem;
+}
+
+#product div {
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid green;
+    width: 30%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.productSpan {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: fit-content;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 1px solid green;
+}
+
+.productsSpan span:first-child {
+    width: fit-content;
+    height: 3rem;
+    margin: 1rem 2.5rem;
+    margin-top: 3rem;
+    font-size: 2.1rem;
+    background-color: rgb(190, 233, 190);
+}
+
+img + span {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+#product img {
+    width: 60%;
+    height: 40%;
+    align-self: center;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 3rem;
+    margin: auto 30%;
+    margin-bottom: 0rem;
+    margin-top: 0.7rem;
+}
+
+.stars i {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.stars + span {
+    margin: 0.5rem 30%;
+    width: 40%;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+sub {
+    font-size: 1.3rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+label {
+    margin-left: 0.8rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+label + input {
+    width: 9rem;
+    height: 2rem;
+}
+
+input + sub {
+    margin-top: 0.55rem;
+    margin-left: 0.2rem;
+    text-decoration: none;
+    font-weight: bold;
+} */
+
+/* form + button {
+    display: inline-block;
+    width: 70%;
+    height: 2rem;
+    margin: 2rem 15%;
+    background-color: lime;
+    font-size: 1.15rem;
+    font-weight: bolder;
+    border: 1px solid black;
+} */
+
+/* ###############point the product section should have ended */
+
+/* ############################## corrections section starts */
+
+#corrections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0.5rem;
+}
+
+#corrections div {
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid green;
+    width: 30%;
+    /* height: 70%; */
+    height: auto;
+    margin-right: 1.3%;
+    margin-left: 1.33%;
+    margin-top: 1.5rem;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+}
+
+.pattern {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 1px solid green;
+    padding: auto;
+    padding-top: 0rem;
+}
+
+.corrected {
+    display: flex;
+    flex-direction: row;
+    height: 35%;
+    width: auto;
+    padding-right: 1.5rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
+}
+
+.patternSpan {
+    width: fit-content;
+    height: 1.8rem;
+    margin: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.2rem;
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+    background-color: rgb(156, 231, 156);
+    padding-top: 0.75rem;
+}
+
+.corrected img {
+    background-color: white;
+    width: 90%;
+    height: 70%;
+    margin-right: 0.5rem;
+    margin-left: 2.5rem;
+    margin-top: 0.8rem;
+}
+
+
+/* browse on how to make the below span appear from the side via css animation */
+.sideIcon {
+    display: flex;
+    flex-direction: column;
+    width: 17.5%;
+    height: 14rem;
+    margin: auto;
+    /* margin-right: 2%; */
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    /* background-color: yellow; */
+    margin-bottom: auto;
+}
+
+.sideIcon i {
+    font-size: 1.4rem;
+    width: fit-content;
+    margin-right: 1rem;
+    color: black;
+    background-color: lightgrey;
+    margin-top: 0.6rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.3rem;
+    padding: 0.7rem;
+    border-radius: 50%;
+}
+
+
+.corrected + span {
+    width: fit-content;
+    height: 3rem;
+    margin: 1rem 2.5rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    font-size: 2.1rem;
+    background-color: rgb(190, 233, 190);
+    text-transform: capitalize;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    width: 18rem;
+    height: 4rem;
+    margin: auto;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.stars i:first-child {
+    margin-left: 1.95rem;
+}
+
+.stars i {
+    color: yellow;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+}
+
+.stars + span {
+    margin: 0.5rem 30%;
+    width: 40%;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.slashing {
+    text-decoration: line-through;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin-bottom: 0rem;
+    padding: auto;
+    background-color: lightgray;
+}
+
+label {
+    margin-left: 0.8rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+label + input {
+    margin-top: 3rem;
+    width: 9rem;
+    height: 2rem;
+}
+
+input + sub {
+    margin-top: 3rem;
+    margin-left: 0.2rem;
+    text-decoration: none;
+    font-size: 1.65rem;
+    font-weight: bold;
+}
+
+#formzy button {
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+/* ############################# corrections section end */
+
+/* ########### deals section  */ 
+#deal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1.5rem;
+}
+
+#deal p {
+    width: 40rem;
+    font-size: 1.8rem;
+}
+
+#deal h2 {
+    width: 25rem;
+    text-align: left;
+}
+
+#medias i {
+    font-size: 1.7rem;
+    color: white;
+    margin-right: 0.5rem;
+    background-color: green;
+}
+
+#javasWork {
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    width: 28rem;
+    padding: auto;
+}
+
+#javasWork div {
+    height: 7rem;
+    width: 5rem;
+    margin: auto 0.5rem;
+    margin-left: 1.4rem;
+    background-color: orange;
+}
+
+#javasWork div:first-child {
+    margin-left: 0rem;
+}
+
+/* counter function starts */
+#tube {
+    width: 100%;
+    height: 20rem;
+    background-color: #f6f6f6;
+}
+.countdownContainer {
+    /* position: absolute; */
+    margin-top: 5rem;
+    margin-left: 18rem;
+    /* transform: translateX(-50%) translateY(-50%); */
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+}
+
+.info {
+    font-size: 80px;
+}
+.numbs {
+    font-size: 3rem;
+}
+/* counter function ends */
+
+#deal button {
+    width: 10rem;
+    height: 2.2rem;
+    margin-left: 2rem;
+    margin-top: 1.55rem;
+    background-color: lime;
+    font-size: 1.2rem;
+    border: 1.2px solid black;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+h2 + hr {
+    height: 0.09rem;
+    width: 22rem;
+    background-color: black;
+    margin-left: 0.2rem;
+}
+
+#contact {
+    width: 100%;
+    margin-top: 4.5rem;
+    margin: auto 0.5rem;
+}
+
+/* buttons styling */
+button {
+    margin: 2rem auto;
+    background-color: lime;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.1rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 76%;
+    height: auto;
+    border: 1.5px solid black;
+    padding: 1rem;
+    margin: auto 10%;
+}
+
+#form2 input{
+    width: 45%;
+    height: 2rem;
+    margin: 0.8rem;
+
+}
+
+#form2 textarea {
+    width: 94%;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+#form2 button {
+    width: 40%;
+}
+
+form + h1 {
+    margin-top: 4rem;
+}
+
+#subEntry {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 2rem lightgray;
+    background-color: gray;
+}
+
+#subEntry input {
+    height: 1.6rem;
+    width: 17rem;
+    align-self: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#subEntry button {
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer div {
+    width: 20%;
+    margin: 2%;
+}
+
+footer div > i {
+    font-size: 2rem;
+    color: green;
+}
+
+#unique span {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#unique p {
+    font-size: 1.3rem;
+    margin-top: 0.1rem;
+    padding-top: 0rem;
+}
+
+.generals {
+    display: flex;
+    flex-direction: column;
+}
+
+.generals h5{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.generals span {
+    font-size: 1.35rem;
+    text-transform: capitalize;
+    margin-top: 0.65rem;
+}
+
+.generals span:hover {
+    border-bottom: 1px solid green;
+}
+
+
+/* try styling all spans of this section to have a similar property */
+#footSpans + i {
+    color: white;
+    background-color: green;
+    margin-right: 1.25px;
+}
+
+.generals a {
+    font-size: 1.35rem;
+    text-transform: capitalize;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.generals a:hover {
+    border-bottom: 2.2px solid green;
+}
+
+.generals a:last-child {
+    margin-bottom: 4rem;
+}
+
+#designer {
+    width: 100%;
+    height: fit-content;
+    border-top: 1.7px solid black;
+}
+
+#oga {
+    display: flex;
+    flex-direction: row;
+    padding-left: 25%;
+    padding-right: 15%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#oga span {
+    margin-left: 0.29rem;
+    margin-right: 0.25rem;
+}
+
+#me + span{
+    color: orangered;
+    text-transform: uppercase;
+}
+
+.stroke {
+    width: 0.2rem;
+    height: 1.4rem;
+    background-color: black;
+    color: black;
+}
+
+button {
+    transition: background-color ease-in 0.25s;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+/* ############# corrections section for the product section, # must be quick */
+
+
+
+/* #corrections section for the products sections ends here */
+
+
+
+
+/* ################################## bla bla stuffs to indicate media section  */
+
+
+
+@media(max-width: 749px) {
+header {
+    height: 5rem;
+    width: 100%;
+    /* width: fit-content; */
+}
+
+/* headers styling */
+header i {
+    font-size: 1.5rem;
+}
+header i:nth-child(1) {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+header span {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-weight: bolder;
+    /* margin-top: 2rem; */
+    margin-top: 1.5rem;
+}
+
+.nutsy {
+    margin-right: 15rem;
+}
+
+.nutsy > i {
+    display: inline;
+    margin-left: 2rem;
+    background-color: red;
+    height: 2rem;
+    width: 3rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    margin-right: 1.1rem;
+}
+
+#closure {
+    display: none;
+}
+
+/* .nutsy i:nth-child(1) {
+    width: 3rem;
+} */
+
+/* #displayTopsy {
+    display: none;
+} */
+
+.menu {
+    display: block;
+    margin-left: 15%;
+}
+
+li {
+    list-style-type: none;
+}
+
+#searcher {
+    display: flex;
+    width: 8rem;
+    height: 3.4rem;
+    /* background-color: white; */
+    margin-left: 3%;
+}
+
+#searcher span {
+    width: 12%;
+    height: fit-content;
+    margin-top: 0.2rem;
+}
+
+
+
+#searcher input {
+    width: 7rem;
+    height: 2rem;
+    margin-right: 0rem;
+    border: 2px solid green;
+}
+
+#searcher i {
+    font-size: 1.7rem;
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    margin-left: 0rem;
+    margin-top: 0.3rem;
+}
+
+#searcher span:nth-child(2) {
+    width: 3rem;
+    height: 2.4rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background-color: green;
+}
+
+#searcher span:first-child {
+margin-right: 6.5rem;
+}
+
+li {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+/* header input {
+    height: 1.8rem;
+    width: 8rem;
+    margin-top: 1.5rem;
+    margin-left: 2%;
+}
+input + i {
+    margin-left: 0.2rem;
+    margin-right: 1rem;
+    margin-top: 1.9rem;
+} */
+.toggleDisplay {
+    display: block;
+}
+#nav {
+    background-color: rgb(235, 220, 220);
+    width: 100%;
+    height: 3.6rem;
+    display: flex;
+    /* padding-right: 30rem; */
+}
+#nav i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+/* #nav i:last-child {
+    margin-right: 1rem;
+} */
+button + i:nth-of-type(1) {
+    margin-left: 0.35rem;
+}
+nav {
+    display: none;
+}
+#shift {
+    margin-left: -25rem;
+}
+#polar {
+    margin-left: 5rem;
+}
+/* .nutsy + i:nth-of-type(1) {
+    font-size: 3rem;
+    margin-left: -40rem;
+} */
+li {
+    width: 25rem;
+    background-color: green;
+}
+
+li:hover {
+    color: white;
+    background-color: black;
+}
+
+/* ul {
+    background-color: blue;
+    margin-right: 0rem;
+} */
+
+li a {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 50%;
+    color: white;
+}
+/* nav + button {
+    display: block;
+    width: 4rem;
+    height: 2rem;
+    background-color: lime;
+    margin-top: 0.1rem;
+    margin-bottom: 2rem;
+    margin-right: 60%;
+    margin-left: 1.3rem;
+} */
+
+ul + button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: lightblue;
+}
+#homeD1 {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+#homeD1 > img {
+    width: 28rem;
+    height: 20rem;
+    margin: auto 7%;
+    margin-top: 7rem;
+}
+#topSpan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 1.9rem;
+    padding: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 0px;
+}
+#topSpan button {
+    width: 7rem;
+    height: 3rem;
+    background-color: lime;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#topSpan span:first-child {
+    margin-top: 1.7rem;
+    font-size: 1.5rem;
+}
+#offerDiv {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.offerPDiv {
+    display: flex;
+    flex-direction: row;
+    width: 66%;
+    height: 14rem;
+    margin: 2rem 17%;
+    background-color: rgb(228, 235, 238);
+}
+.offersPGraph {
+    width: 43%;
+    margin: 4rem 0.4rem;
+}
+.offerPDiv img {
+    width: 50%;
+    height: 14rem;
+}
+.offersPGraph {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.75rem;
+}
+.offersPGraph span:first-child {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+}
+.offersPGraph span:nth-of-type(2) {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 1.5;
+}
+.offersPGraph button {
+    margin-top: 1.4rem;
+    background-color: lime;
+}
+/* category styling */
+#category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#category div {
+    width: 60%;
+    margin: 1.5rem 20%;
+}
+#product div {
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid green;
+    width: 80%;
+    height: 50%;
+   margin: 1.3rem 10%;
+    margin-top: 1.5rem;
+}
+.stars + span {
+    margin: 1rem 30%;
+    width: 40%;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+/* the below also styled the button  */
+/* .productsSpan button{
+    width: 9rem;
+    background-color: lime;
+} */
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+form > div {
+    width: 40rem;
+    height: auto;
+}
+
+label + input {
+    width: 9rem;
+}
+form button {
+    display: inline-block;
+    width: 80%;
+    height: 2rem;
+    margin: 2rem 10%;
+    background-color: lime;
+    font-size: 1.15rem;
+    border: 1px solid black;
+}
+#deal h2 {
+    margin-left: 2rem;
+}
+#deal p {
+    width: 80%;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+#javasWork {
+    margin-left: 2rem;
+    width: 80%;
+}
+/* countdown starts */
+#tube {
+    width: 100%;
+    height: 12rem;
+    background-color: #f6f6f6;
+}
+.countdownContainer {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #999;
+    padding: 5px;
+    box-shadow: 0 0 5px 3px #ccc;
+}
+
+.info {
+    font-size: 40px;
+}
+.numbs {
+    font-size: 2.4rem;
+}
+/* countdown ends */
+h2 + hr {
+    margin-left: 2rem;
+}
+
+#form2 input{
+    width: 90%;
+    height: 2rem;
+    margin: 0.6rem;
+}
+#form2 button {
+    width: 12rem;
+    margin-left: 0.6rem;
+}
+
+form + h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+footer {
+    margin-left: 2rem;
+}
+footer div {
+    width: 40%;
+    margin: 2rem 5%;
+}
+
+#designer {
+    width: 100%;
+    height: fit-content;
+    border-top: 1.7px solid black;
+}
+
+#oga {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}
+
+#oga span {
+    font-size: 1rem;
+}
+
+#me + span{
+    text-transform: uppercase;
+    text-decoration-color: orangered;
+    /* background-color: yellow; */
+}
+
+.stroke {
+    height: 2.5rem;
+}
+.pattern {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: fit-content;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid green;
+}
+
+#corrections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0.5rem;
+}
+
+#corrections div {
+    width: 90%;
+    margin: auto 5%;
+    margin: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.coorected img {
+    margin-right: 1rem;
+}
+
+.sideIcon {
+    margin-left: 0.5rem;
+}
+
+}

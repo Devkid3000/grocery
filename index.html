@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROCO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="tasty.css">
+</head>
+
+<body>
+
+    <header>
+        <i class="fas fa-shopping-basket"></i>
+        <span>soft-stores</span>
+        <span id="searcher">
+        <span><input type="text" placeholder="search here..."></span>
+        <span><i class="fas fa-search"></i></span>
+        </span>
+    </header>
+
+    <section id="nav">
+        <nav>
+            <a href="#home">home</a>
+            <a href="#category">category</a>
+            <a href="#product">product</a>
+            <a href="#deal">deal</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="nutsy">
+            <i class="fas fa-window-close" id="closure"></i>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#category">category</a></li>
+            <li><a href="#product">product</a></li>
+            <li><a href="#deal">deal</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <button class="menu displayTopsy">Menu</button>
+        </div>
+        <!-- work on this button when you have started with javascript -->
+        <!-- <button></button> -->
+        <i class="fas fa-shopping-cart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-user-alt"></i>
+    </section>
+
+    <!-- home section -->
+    <section id="home">
+        <div id="homeD1">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\home-img.png" alt="">
+            <div id="topSpan">
+                <span>Fresh And Organic</span>
+                <span>Your Daily need Products</span>
+                <button>Get started</button>
+            </div>
+        </div>
+
+        <!-- give the sub divs a width that'll make them adjust on their own on a suitable platform -->
+        <!-- also give a second look to the images -->
+        <div id="offerDiv">
+            <!-- try enclosing the image in a div and setting the background of the div to the image so it'll contain the image  -->
+            <div class="offerPDiv">
+                <p class="offersPGraph">
+                    <span>special offer</span>
+                    <span>up-to 32% off</span>
+                    <button>check out</button>
+                </p>
+                <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\banner-1.jpg" alt="">
+            </div>
+            <div class="offerPDiv">
+                <p class="offersPGraph">
+                    <span>limited offer</span>
+                    <span>up-to 25% off</span>
+                    <button>check out</button>
+                </p>
+                <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\banner-2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- category section -->
+
+    <!-- try making this h1 what would link people to the different sections -->
+    <h1>shop by category</h1>
+    <hr>
+    <section id="category">
+        <div>
+            <h2>vegetables</h2>
+            <span>up-to 22% off</span>
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\category-1.png" alt="">
+            <button>shop now</button>
+        </div>
+        <div>
+            <h2>meat</h2>
+            <span>up-to 27% off</span>
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\category-3.png" alt="">
+            <button>shop now</button>
+        </div>
+        <div>
+            <h2>juice</h2>
+            <span>up-to 30% off</span>
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\category-2.png" alt="">
+            <button>shop now</button>
+        </div>
+        <div>
+            <h2>fruit</h2>
+            <span>up-to 40% off</span>
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\category-1.png" alt="">
+            <button>shop now</button>
+        </div>
+    </section>
+
+
+<!-- the long sections part -->
+
+    <h1 id="product">our products</h1>
+    <hr>
+    <section id="corrections">
+
+        <div class="pattern">
+            <span class="patternSpan">-14%</span>
+            <p class="corrected">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\product-2.png" alt="">
+                <span class="sideIcon">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-reply-all"></i>
+                <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">natural tomatoes</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </span>
+
+            <span>$25.99<sub class="slashing">$50.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+
+        <div class="pattern">
+            <span class="patternSpan">-14%</span>
+            <p class="corrected">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\category-4.png" alt="">
+                <span class="sideIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-reply-all"></i>
+                    <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">organic cherry</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </span>
+
+            <span>$18.99<sub class="slashing">$38.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+
+        <div class="pattern">
+            <span class="patternSpan">-14%</span>
+            <p class="corrected">
+           
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\product-1.png" alt="">
+                <span class="sideIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-reply-all"></i>
+                    <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">organic Banana</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </span>
+
+            <span>$30.99<sub class="slashing">$40.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+
+        <div class="pattern">
+            <span class="patternSpan">-17%</span>
+            <p class="corrected">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\product-3.png" alt="">
+                <span class="sideIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-reply-all"></i>
+                    <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">natural orange</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </span>
+
+            <span>$18.99<sub class="slashing">$35.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+        <!-- no 5 -->
+        <div class="pattern">
+            <span class="patternSpan">-11%</span>
+            <p class="corrected">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\product-4.png" alt="">
+                <span class="sideIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-reply-all"></i>
+                    <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">mild milk</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </span>
+
+            <span>$20.99<sub class="slashing">$31.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+
+        <!-- no 6 -->
+        <div class="pattern">
+            <span class="patternSpan">-8%</span>
+            <p class="corrected">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\product-5.png" alt="">
+                <span class="sideIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-reply-all"></i>
+                    <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">organic grape</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </span>
+
+            <span>$21.99<sub class="slashing">$29.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+
+        <!-- no. 7 -->
+
+        <div class="pattern">
+            <span class="patternSpan">-5%</span>
+            <p class="corrected">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\product-7.png" alt="">
+                <span class="sideIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-reply-all"></i>
+                    <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">natural apple</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </span>
+
+            <span>$40.99<sub class="slashing">$45.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+
+        <!-- no. 8 -->
+        <div class="pattern">
+            <span class="patternSpan">-14%</span>
+            <p class="corrected">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\product-9.png" alt="">
+                <span class="sideIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-reply-all"></i>
+                    <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">sweet carrot</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </span>
+
+            <span>$29.99<sub class="slashing">$42.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+
+        <!-- no. 9 -->
+        <div class="pattern">
+            <span class="patternSpan">-17%</span>
+            <p class="corrected">
+            <img src="C:\Users\CHINAZA\Documents\class excercise 2\successful\tasty\images\product-8.png" alt="">
+                <span class="sideIcon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-reply-all"></i>
+                    <i class="fas fa-eye"></i>
+                </span>
+            </p>
+
+            <span class="captor">synth cheese</span>
+
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </span>
+
+            <span>$46.99<sub class="slashing">$53.99</sub></span>
+            <form action="post" id="formzy">
+                <label for="quantity">quantity: </label>
+                <input type="number"><sub>/kg</sub>
+                <button>Add to Cart</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- ######################################################################################################################## -->
+
+
+
+
+
+
+    <!-- deal section -->
+    <section id="deal">
+        <h2>Deals of the day</h2><hr>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ipsa repudiandae tempore doloribus
+            molestiae cupiditate mollitia dolores, excepturi enim consectetur reprehenderit nemo veritatis, recusandae
+            iste nihil, ab ullam hic. Numquam quam inventore assumenda dolorem dolore nobis itaque, soluta impedit
+            sequi.</p>
+
+            <!-- you may most likely enclose it in a span  -->
+
+        <!-- <div id="javasWork">
+        <div id="day"></div>
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+        </div> -->
+
+        <section id="tube">
+            <table class="countdownContainer">
+                <tr class="info">
+                    <td colspan="4">Deals countdown</td>
+                </tr>
+                <tr class="numbs">
+                    <td id="days">120</td>
+                    <td id="hours">4</td>
+                    <td id="minutes">12</td>
+                    <td id="seconds">22</td>
+                </tr>
+                <tr>
+                    <td>Days</td>
+                    <td>Hours</td>
+                    <td>Minutes</td>
+                    <td>Seconds</td>
+                </tr>
+            </table>
+        </section>
+
+        <button>check the deal</button>
+    </section>
+
+
+    <!-- contact section -->
+    <section id="contact">
+        <h2>contact us</h2>
+        <form action="post" id="form2">
+                <input type="text" placeholder="name" name="name">
+                <input type="email" placeholder="email" name="email">
+                <input type="number" placeholder="number" name="number">
+                <input type="text" placeholder="subject" name="subject">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
+            <button>send message</button>
+        </form>
+        <h1>subscribe for latest updates</h1>
+        <div id="subEntry">
+            <input type="email" placeholder="Enter your email">
+            <button>subscribe</button>
+        </div>
+    </section>
+
+    <footer>
+        <div id="unique">
+            <i class="fas fa-shopping-basket"></i>
+            <span>Groco</span>
+            <p id="footSpans">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ut magni doloremque eos? Ducimus
+                ex esse fuga nulla, labore obcaecati laudantium modi, velit debitis, quod delectus voluptates sed
+                assumenda. Magni.
+            </p>
+            <span id="medias">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-apple"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            </span>
+        </div>
+
+        <div class="generals">
+            <h5>our location</h5>
+            <span>nigeria</span>
+            <span>united states of america</span>
+            <span>russia</span>
+            <span>germany</span>
+            <span>india</span>
+        </div>
+
+        <div class="generals">
+            <h5>quick links</h5>
+            <a href="#home">home</a>
+            <a href="#category">category</a>
+            <a href="product">product</a>
+            <a href="deal">deal</a>
+            <a href="contact">contact</a>
+        </div>
+
+        <div class="generals">
+            <h5>download app</h5>
+            <a href="https://google play store">google play</a>
+            <a href="https://window xp">window xp</a>
+            <a href="https://app store">app store</a>
+            <a href="https://amazon play store">amazon store</a>
+        </div>
+
+        <section id="designer">
+            <span id="oga">
+            <span id="me">created by</span><span >Ireh Chizaram</span> <span class="stroke"></span> <span>verbum networks</span> 
+            <span
+                class="stroke"></span> All rights reserved.
+            </span>
+        </span>
+        </section>
+        <!-- note, its remaining the other two divs, kudos, continue the good work later on -->
+    </footer>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
